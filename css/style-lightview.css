@@ -694,7 +694,8 @@ header .header-line {
   bottom: 0;
 /*  width: 100px;*/
   width: 80px;
-  background:#ededed;
+  /* background:#ededed; */
+  background:#fff;
   z-index: 33;
 }
 @media (max-width: 1023px) {
@@ -782,7 +783,8 @@ header .header-line div.social-line:before {
 header .header-line div.social-line ul.social-list {
   padding: 20px 0;
   margin: 0 0 40px;
-  background:#ededed;
+  /* background:#ededed; */
+  background:#fff;
   position: relative;
   z-index: 2;
 }
@@ -830,7 +832,8 @@ header .nav-menu-box {
   top: 100px;
   left: -300px;
   width: 300px;
-  background-color:#d3d3d3;
+  /* background-color:#d3d3d3; */
+  background-color:#fff;
   padding:15px 25px;
   text-align: right;
   max-height: calc(100vh - 100px);

@@ -244,6 +244,33 @@
                             <nav class="nav-menu-box">
                                 <ul class="navigation-menu-list">
                                     <li><a href="index.html"><span><em>Home</em></span></a></li>
+                                 
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span><em>Projects</em></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Ongoing</a></li>
+                                            <li class="sub-cat"><a
+                                                    href="project-mohali/phase-2.html"><i
+                                                        class="fa
+                                                        fa-dot-circle-o"></i>
+                                                    Mohali Phase 2</a></li>
+                                                    <li><a href="#">Delivered</a></li>
+                                            <li class="sub-cat"><a
+                                                    href="project-mohali/phase-1/phase-1.html"><i
+                                                        class="fa
+                                                        fa-dot-circle-o"></i>
+                                                    Mohali Phase 1 </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span><em>Media</em></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="news.html">In the News</a></li>
+                                            <li><a href="press.html">Print
+                                                    Coverage </a></li>
+                                            <li><a href="videos.html">Videos</a></li>
+                                        </ul>
+                                    </li>
                                     <li class="menu-item-has-children">
                                         <a href="#"><span><em>Our Story</em></span></a>
                                         <ul class="sub-menu">
@@ -258,34 +285,9 @@
                                                     Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#"><span><em>Projects</em></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Ongoing</a></li>
-                                            <li class="sub-cat"><a
-                                                    href="project-mohali/phase-2.html"><i
-                                                        class="fa
-                                                        fa-dot-circle-o"></i>
-                                                    Mohali Phase 2</a></li>
-                                            <li class="sub-cat"><a
-                                                    href="project-mohali/phase-1/phase-1.html"><i
-                                                        class="fa
-                                                        fa-dot-circle-o"></i>
-                                                    Mohali Phase 1 </a></li>
-                                        </ul>
-                                    </li>
-
                                     <li><a href="careers.html"><span><em>People
                                                     at Work</em></span></a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#"><span><em>Media</em></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="news.html">In the News</a></li>
-                                            <li><a href="press.html">Print
-                                                    Coverage </a></li>
-                                            <li><a href="videos.html">Videos</a></li>
-                                        </ul>
-                                    </li>
+                                    
 
 
                                     <li><a href="contactus.html"><span><em>Contact
@@ -361,27 +363,13 @@
                                                     id="ddlproject">
                                                     <option value="" disabled
                                                         selected>Select Project</option>
-                                                    <option value="Ganga
-                                                        Greens">Ganga Greens</option>
-                                                    <option value="Alaknanda">Alaknanda</option>
-                                                    <option value="Gharaunda">Gharaunda</option>
-                                                    <option value="Haridwar
-                                                        Greens">Haridwar Greens</option>
-                                                    <option value="Hero Homes
-                                                        Gurugram">Hero Homes
-                                                        Gurugram</option>
-                                                    <option value="Hero Homes
-                                                        Ludhiana">Hero Homes
-                                                        Ludhiana</option>
                                                     <option value="Hero Homes
                                                         Mohali">Hero Homes
-                                                        Mohali</option>
+                                                        Mohali Phase 1</option>
                                                     <option value="Hero Homes
                                                         Mohali Phase 2">Hero
                                                         Homes Mohali Phase 2</option>
-                                                    <option value="Holiday
-                                                        Homes">Holiday Homes</option>
-                                                    <option value="Utkarsh">Utkarsh</option>
+                                                  
                                                 </select>
                                             </div>
                                             <div class="ip-row-div">
@@ -425,29 +413,31 @@
 
                             <div id="content">
 
+<div style="float: right;">
+    <div class="info-box2" onClick="changeCSS()" style="margin-right: -146px;">
+        <p><a href="#" id="changetheme"> <i
+                    class="fa fa-sun"
+                    aria-hidden="true"></i></a></p>
+    </div>
 
-                                <div class="info-box2" onClick="changeCSS()">
-                                    <p><a href="#" id="changetheme"> <i
-                                                class="fa fa-sun"
-                                                aria-hidden="true"></i></a></p>
-                                </div>
+    <div class="info-box" style="margin-right: -146px;">
+        <p class="enquiry-div-popup"
+            onclick="ShowPopup()">
+            <i class="fa fa-phone-square"></i>
+            <a href="#">Book a Visit </a>
+        </p>
+    </div>
+</div>
+                                
 
-                                <div class="info-box">
-                                    <p class="enquiry-div-popup"
-                                        onclick="ShowPopup()">
-                                        <i class="fa fa-phone-square"></i>
-                                        <a href="#">Book a Visit </a>
-                                    </p>
-                                </div>
-
-                                <div class="info-box-login">
+                                <!-- <div class="info-box-login">
                                     <p><a
                                             href="http://203.101.82.135/farvisionr2/app/Login/loginR2.html"
                                             target="_blank">
                                             <i class="fa fa-user"
                                                 aria-hidden="true"></i> Customer
                                             Login</a></p>
-                                </div>
+                                </div> -->
 
 
 
@@ -487,6 +477,10 @@
                                         <div class="owl-carousel owl-theme"
                                             data-num="3">
 
+                                            
+
+                                            
+
                                             <div class="item">
                                                 <div class="scroller-post">
                                                     <div class="image-holder">
@@ -497,7 +491,7 @@
                                                                 loop="" muted=""
                                                                 autoplay="">
                                                                 <source
-                                                                    src="video/home-v1.mp4"
+                                                                    src="video/home-v3.mp4"
                                                                     type="video/mp4">
                                                             </video>
                                                         </div>
@@ -505,7 +499,6 @@
 
                                                 </div>
                                             </div>
-
                                             <div class="item">
                                                 <div class="scroller-post">
                                                     <div class="image-holder">
@@ -535,7 +528,7 @@
                                                                 loop="" muted=""
                                                                 autoplay="">
                                                                 <source
-                                                                    src="video/home-v3.mp4"
+                                                                    src="video/home-v1.mp4"
                                                                     type="video/mp4">
                                                             </video>
                                                         </div>
@@ -543,8 +536,6 @@
 
                                                 </div>
                                             </div>
-
-
 
                                         </div>
                                     </div>
@@ -662,6 +653,71 @@
 
                                 <!---Filter end--->
 
+                                <section class="features-carousel-section">
+
+                                    <div class="container">
+                                        <div class="title-box center-title">
+                                            <h2>Our Delivered Projects</h2>
+                                        </div>
+                                        <div class="features-carousel-box
+                                            owl-wrapper">
+                                            <div id="owl-slider"
+                                                class="owl-carousel owl-theme"
+                                                data-num="1">
+
+
+                                                <div class="item">
+                                                    <div class="feature-post">
+                                                        <div
+                                                            class="image-holder">
+                                                            <img
+                                                                src="images/completed-projects/mohali-phase1.jpg"
+                                                                alt="Mohali
+                                                                Phase-1"></div>
+                                                        <div
+                                                            class="feature-post-content">
+                                                            <h3>Mohali Phase-1</h3>
+                                                            <div class="mt-2
+                                                                mb-2">
+                                                                <a
+                                                                    href="project-mohali/phase-1/phase-1.html"
+                                                                    class="theme-button"><span>Read
+                                                                        More</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">
+                                                    <div class="feature-post">
+                                                        <div
+                                                            class="image-holder">
+                                                            <img
+                                                                src="images/completed-projects/haridwar-greens3.jpg"
+                                                                alt="Mohali
+                                                                Phase-1"></div>
+                                                        <div
+                                                            class="feature-post-content">
+                                                            <h3>Mohali Phase-2</h3>
+                                                            <div class="mt-2
+                                                                mb-2">
+                                                                <a
+                                                                    href="project-mohali/phase-2.html"
+                                                                    class="theme-button"><span>Read
+                                                                        More</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </section>
+
 
                                 <!-- services-section 
 				================================================== -->
@@ -690,26 +746,26 @@
                                                                     Phase 2"/>
                                                                 <h4>Mohali
                                                                     Phase-2</h4>
-                                                                <p>Designed
+                                                                <p>Planned
                                                                     around the
-                                                                    four pillars
-                                                                    of Hero
-                                                                    Realty’s
+                                                                    four points of support
+                                                                    of Legend
+                                                                    Realty's
                                                                     brand
-                                                                    philosophy –
-                                                                    Fitness,
-                                                                    Sustainability,
-                                                                    Community
-                                                                    and
-                                                                    Creativity,
-                                                                    Hero Homes
+                                                                    reasoning -
+                                                                    Wellness,
+                                                                    Supportability,
+                                                                    Local area
+                                                                    furthermore,
+                                                                    Imagination,
+                                                                    Legend Homes
                                                                     Mohali is
-                                                                    all about
-                                                                    the finer
+                                                                    about
+                                                                    the better
                                                                     things that
                                                                     make living
-                                                                    a truly
-                                                                    beautiful
+                                                                    a really
+                                                                    wonderful
                                                                     experience.
                                                                 </p>
                                                                 <div class="mt-2
@@ -733,27 +789,27 @@
                                                                     Phase 1"/>
                                                                 <h4>Mohali
                                                                     Phase-1</h4>
-                                                                <p>Imagine a
-                                                                    lifestyle
-                                                                    beyond the
-                                                                    ordinary in
+                                                                <p>Envision a
+                                                                    way of life
+                                                                    past the
+                                                                    common in
                                                                     one of the
                                                                     most
                                                                     upmarket
-                                                                    neighbourhoods
+                                                                    neighborhoods
                                                                     of Mohali.
                                                                     That is
-                                                                    exactly what
-                                                                    Hero Home
+                                                                    precisely what
+                                                                    Legend Home
                                                                     Mohali is
                                                                     offering, a
-                                                                    global
-                                                                    lifestyle
-                                                                    loaded with
+                                                                    worldwide
+                                                                    way of life
+                                                                    stacked with
                                                                     the
-                                                                    luxuries,
-                                                                    experiences,
-                                                                    comforts..
+                                                                    extravagances,
+                                                                    encounters,
+                                                                    solaces..
                                                                 </p>
                                                                 <div class="mt-2
                                                                     mb-2">
@@ -852,70 +908,7 @@
 
                                 </section> -->
 
-                                <section class="features-carousel-section">
-
-                                    <div class="container">
-                                        <div class="title-box center-title">
-                                            <h2>Our Delivered Projects</h2>
-                                        </div>
-                                        <div class="features-carousel-box
-                                            owl-wrapper">
-                                            <div id="owl-slider"
-                                                class="owl-carousel owl-theme"
-                                                data-num="1">
-
-
-                                                <div class="item">
-                                                    <div class="feature-post">
-                                                        <div
-                                                            class="image-holder">
-                                                            <img
-                                                                src="images/completed-projects/mohali-phase1.jpg"
-                                                                alt="Mohali
-                                                                Phase-1"></div>
-                                                        <div
-                                                            class="feature-post-content">
-                                                            <h3>Mohali Phase-1</h3>
-                                                            <div class="mt-2
-                                                                mb-2">
-                                                                <a
-                                                                    href="project-mohali/phase-1/phase-1.html"
-                                                                    class="theme-button"><span>Read
-                                                                        More</span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="item">
-                                                    <div class="feature-post">
-                                                        <div
-                                                            class="image-holder">
-                                                            <img
-                                                                src="images/completed-projects/haridwar-greens3.jpg"
-                                                                alt="Mohali
-                                                                Phase-1"></div>
-                                                        <div
-                                                            class="feature-post-content">
-                                                            <h3>Mohali Phase-2</h3>
-                                                            <div class="mt-2
-                                                                mb-2">
-                                                                <a
-                                                                    href="project-mohali/phase-2.html"
-                                                                    class="theme-button"><span>Read
-                                                                        More</span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </section>
+                             
 
                                 <!-- End features-carousel-section -->
 
@@ -946,6 +939,26 @@
                                                 <li><a href="#"><img
                                                             src="images/certificate/logo02.png"
                                                             alt="Certificate"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="instagram-line-awards bg38-b">
+                                        <div class="container-fluid">
+                                           <div class="sec-title5 text-center mb-20 md-mb-20">
+                                           <h2 class="title pb-20">Awards</h2>
+                                        </div>
+                                            <ul class="insta-list-awards">
+                                                <li><a href="#"><img src="images/awards/w/highlights06.png" alt=""></a></li>
+                                                <li><a href="#"><img src="images/awards/w/highlights004.png" alt=""></a></li>
+                                                <li><a href="#"><img src="images/awards/w/highlights05.png" alt=""></a></li>
+                                                <li><a href="#"><img src="images/awards/w/highlights02.png" alt=""></a></li>
+                                                <li><a href="#"><img src="images/awards/w/highlights01.png" alt=""></a></li>
+                                            <li><a href="#"><img src="images/awards/w/highlights03.png" alt=""></a></li>
+                                            <li><a href="#"><img src="images/awards/w/highlights08.png" alt=""></a></li>
+                                            <li><a href="#"><img src="images/awards/w/highlights07.png" alt=""></a></li>
+                                                
+                    
                                             </ul>
                                         </div>
                                     </div>
