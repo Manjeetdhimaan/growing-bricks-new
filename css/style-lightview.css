@@ -10624,9 +10624,9 @@ section.features-carousel-section .feature-post .feature-post-content {
 
 
 @media only screen and (max-width: 996px) and (min-width: 320px) {
-    .pc-block {
+    /* .pc-block {
         display: none;
-    }
+    } */
 
 
     .mobile-block {
