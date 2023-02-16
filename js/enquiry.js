@@ -164,11 +164,14 @@ function ContactUsForm() {
             Mobile: txtphone2,
             StateCity: txtStateCity2,
             Subject: txtSubject2,
-            Message: txtMessage2
+            Message: txtMessage2,
+            form: 'contact',
+            domain: 'Hero Homes',
+            sendToEmail: 'manjeetdhimaan60@gmail.com'
         }
         $.ajax({
             type: "POST",
-            url: "https://api.herohomes.in/HeroHome/EnquiryForm",
+            url: "https://www.api-email.dopedigital.in/api/send-contact-growing-bricks",
             contentType: "application/json;Charset=utf-8",
             dataType: "json",
             data: JSON.stringify(e),

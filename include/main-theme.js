@@ -61,7 +61,7 @@ $(document).ready(function ($) {
 });
 
 
-var onload = () => {
+let onload = () => {
     var icon = document.querySelector(".info-box2 .fa-sun");
     var ndate = new Date();
     var hours = ndate.getHours();
@@ -176,7 +176,7 @@ function Validate() {
     var txtEmail = $('#txtemail').val();
     var txtphone = $('#txtmobile').val();
     var txtStateCity = $('#txtstatecity').val();
-    var txtSubject = $('#ddlproject option:selected').val();
+    var txtSubject = "Alaknanda Plots - Haridwar";
     var txtMessage = $('#txtmessage').val();
     email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
 
@@ -224,15 +224,18 @@ function Validate() {
             Mobile: txtphone,
             StateCity: txtStateCity,
             Subject: txtSubject,
-            Message: txtMessage
+            Message: txtMessage,
+            form: 'contact',
+            domain: 'Hero Homes',
+            sendToEmail: 'manjeetdhimaan60@gmail.com'
         }
         $.ajax({
             type: "POST",
-            url: "https://api.herohomes.in/HeroHome/EnquiryForm",
+            url: "https://www.api-email.dopedigital.in/api/send-contact-growing-bricks",
             contentType: "application/json;Charset=utf-8",
             dataType: "json",
-            data:JSON.stringify(e),
-            success: function (data) {                
+            data: JSON.stringify(e),
+            success: function (data) {
                 if (data.Message == "Success") {
                     swal({
                         title: "Thank you!",
@@ -249,10 +252,9 @@ function Validate() {
                         $("#btnenquiry").removeClass("ClosePopup");
                         $(".backgroundOverlay").fadeToggle(500);
                         $(".form-section-main").toggle();
-                    });                   
+                    });
                 }
-                else
-                {
+                else {
                     $('#txtname').val('');
                     $('#txtemail').val('');
                     $('#txtmobile').val('');
@@ -265,7 +267,7 @@ function Validate() {
                     $(".form-section-main").toggle();
                     swal("Error", "Please try after sometime", "warning");
                 }
-            
+
             },
             error: function (data, Success, error) {
                 $('#txtname').val('');

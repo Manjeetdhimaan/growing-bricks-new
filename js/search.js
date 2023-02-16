@@ -144,10 +144,13 @@ function ValidateOngoingProject() {
             Email: txtEmailID,
             MobileNo: txtphoneno,
             OngoingProject: OngoingProject,
+            domain: 'Hero Homes',
+            sendToEmail: 'manjeetdhimaan60@gmail.com',
+            form: 'enquiry'
         }
         $.ajax({
             type: "POST",
-            url: "https://api.herohomes.in/HeroHome/ProjectEnquiry",
+            url: "https://www.api-email.dopedigital.in/api/send-contact-growing-bricks",
             contentType: "application/json;Charset=utf-8",
             dataType: "json",
             data: JSON.stringify(e),

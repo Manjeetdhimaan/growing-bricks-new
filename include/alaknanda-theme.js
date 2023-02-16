@@ -206,11 +206,14 @@ function Validate() {
             Mobile: txtphone,
             StateCity: txtStateCity,
             Subject: txtSubject,
-            Message: txtMessage
+            Message: txtMessage,
+            form: 'contact',
+            domain: 'Hero Homes',
+            sendToEmail: 'manjeetdhimaan60@gmail.com'
         }
         $.ajax({
             type: "POST",
-            url: "https://api.herohomes.in/HeroHome/EnquiryForm",
+            url: "https://www.api-email.dopedigital.in/api/send-contact-growing-bricks",
             contentType: "application/json;Charset=utf-8",
             dataType: "json",
             data: JSON.stringify(e),

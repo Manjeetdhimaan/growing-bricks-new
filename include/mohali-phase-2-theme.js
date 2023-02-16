@@ -162,7 +162,7 @@ function Validate() {
     var txtEmail = $('#txtemail').val();
     var txtphone = $('#txtmobile').val();
     var txtStateCity = $('#txtstatecity').val();
-    var txtSubject = "Mohali Phase 2"
+    var txtSubject = "Alaknanda Plots - Haridwar";
     var txtMessage = $('#txtmessage').val();
     email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
 
@@ -210,11 +210,14 @@ function Validate() {
             Mobile: txtphone,
             StateCity: txtStateCity,
             Subject: txtSubject,
-            Message: txtMessage
+            Message: txtMessage,
+            form: 'contact',
+            domain: 'Hero Homes',
+            sendToEmail: 'manjeetdhimaan60@gmail.com'
         }
         $.ajax({
             type: "POST",
-            url: "https://api.herohomes.in/HeroHome/EnquiryForm",
+            url: "https://www.api-email.dopedigital.in/api/send-contact-growing-bricks",
             contentType: "application/json;Charset=utf-8",
             dataType: "json",
             data: JSON.stringify(e),
