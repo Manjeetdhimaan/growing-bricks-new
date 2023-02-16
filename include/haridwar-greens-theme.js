@@ -212,7 +212,7 @@ function Validate() {
             Message: txtMessage,
             form: 'contact',
             domain: 'Hero Homes',
-            sendToEmail: 'manjeetdhimaan60@gmail.com'
+            sendToEmail: 'navneet@growingbricksrealty.com'
         }
         $.ajax({
             type: "POST",

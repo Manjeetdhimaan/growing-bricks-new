@@ -145,7 +145,7 @@ function ValidateOngoingProject() {
             MobileNo: txtphoneno,
             OngoingProject: OngoingProject,
             domain: 'Hero Homes',
-            sendToEmail: 'manjeetdhimaan60@gmail.com',
+            sendToEmail: 'navneet@growingbricksrealty.com',
             form: 'enquiry'
         }
         $.ajax({
