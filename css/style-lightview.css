@@ -677,6 +677,10 @@ header .logo.active {
   header .logo.active {
     left: 100px;
   }
+
+  .info-box {
+    display: none!important;
+  }
 }
 header .logo a img {
   max-width: 100%;
@@ -1395,7 +1399,7 @@ body {
 }
 #content {
   /*padding-left: 100px;*/
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 @media (max-width: 1023px) {
   #content {
@@ -10687,11 +10691,6 @@ section.features-carousel-section .feature-post .feature-post-content {
   margin-left: auto
 }
 
-@media (min-width: 700px) {
-  .custom-footer{
-    margin-left: 70px
-  }
-}
 
 #myBtn {
 

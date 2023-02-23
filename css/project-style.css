@@ -191,7 +191,7 @@ background-image: url(../images/bg/bg19.png);
 }
 
 .bg9b {
-  background-image: url(../images/bg/bg9b.jpg);
+  /* background-image: url(../images/bg/bg9b.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
