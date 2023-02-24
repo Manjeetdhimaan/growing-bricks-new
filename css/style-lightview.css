@@ -690,6 +690,10 @@ header .logo a img {
   header .logo a img {
     max-width: 220px;
   }
+
+  .hero {
+    padding-top: 200px
+  }
 }
 header .header-line {
   position: fixed;
@@ -10746,21 +10750,8 @@ button[title]{
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 160px
+  }
+}

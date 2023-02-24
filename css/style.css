@@ -26,6 +26,10 @@
  20.Responsive part
 -------------------------------------------------*/
 
+html, body {
+  overflow-x: hidden!important;
+}
+
 @font-face {
 	font-family: 'gothic';
 	src: url('../fonts/gothic.eot');
@@ -10685,6 +10689,16 @@ a.go-top:hover {
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.whatsappLogoHeader {
+  width: 100px;
+}
+
+@media(max-width: 600px) {
+  .whatsappLogoHeader {
+    width: 30px!important;
+  }
 }
 
 
