@@ -8913,3 +8913,6 @@ font-size:1.5rem!important
 	z-index: 900;
   }
   
+  .nav-link {
+	font-weight: 600;
+  }
