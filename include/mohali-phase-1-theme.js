@@ -147,8 +147,6 @@ function ShowPopup() {
 }
 
 
-
-
 function validateEmail($txtEmail) {
     var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
     return emailReg.test($txtEmail);

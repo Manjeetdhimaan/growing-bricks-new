@@ -481,7 +481,7 @@
         
         
         // 21. Nice Select
-        $('select').niceSelect();
+        // $('select').niceSelect();
         
         
         // 22. WOW Animation

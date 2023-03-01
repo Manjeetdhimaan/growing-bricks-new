@@ -398,7 +398,7 @@ $(document).ready(function($) {
 							onEndHeaderAnimation();
 						}
 					}
-				}, 80 );
+				}, 0 );
 		};
 
 		loader.setProgressFn( simulationFn );
