@@ -125,35 +125,35 @@ function ContactUsForm() {
         $('#txtname2').focus();
     }
 
-    else if (txtEmail2.length < 1) {
-        $("#lblerror2").html("Please Enter Your Email")
-        $('#txtemail2').focus();
-    }
+    // else if (txtEmail2.length < 1) {
+    //     $("#lblerror2").html("Please Enter Your Email")
+    //     $('#txtemail2').focus();
+    // }
 
-    else if (!validateEmail(txtEmail2)) {
-        $("#lblerror2").html("Please Enter a Valid Email")
-        $('#txtemail2').focus();
-    }
+    // else if (!validateEmail(txtEmail2)) {
+    //     $("#lblerror2").html("Please Enter a Valid Email")
+    //     $('#txtemail2').focus();
+    // }
     else if (txtphone2.length < 1) {
         $("#lblerror2").html("Please Enter Your Mobile Number")
         $('#txtmobile2').focus();
     }
-    else if (txtphone2.length != 10) {
-        $("#lblerror2").html("Please Enter a Valid Mobile Number")
-        $('#txtmobile2').focus();
-    }
-    else if (txtStateCity2.length < 1) {
-        $("#lblerror2").html("Please Enter State / City")
-        $('#txtstatecity2').focus();
-    }
-    else if (txtSubject2.length < 1) {
-        $("#lblerror2").html("Please Select a Project")
-        $('#ddlproject2').focus();
-    }
-    else if (txtMessage2.length < 1) {
-        $("#lblerror2").html("Please Enter Your Message")
-        $('#txtmessage2').focus();
-    }
+    // else if (txtphone2.length != 10) {
+    //     $("#lblerror2").html("Please Enter a Valid Mobile Number")
+    //     $('#txtmobile2').focus();
+    // }
+    // else if (txtStateCity2.length < 1) {
+    //     $("#lblerror2").html("Please Enter State / City")
+    //     $('#txtstatecity2').focus();
+    // }
+    // else if (txtSubject2.length < 1) {
+    //     $("#lblerror2").html("Please Select a Project")
+    //     $('#ddlproject2').focus();
+    // }
+    // else if (txtMessage2.length < 1) {
+    //     $("#lblerror2").html("Please Enter Your Message")
+    //     $('#txtmessage2').focus();
+    // }
     else {
         $("#lblerror2").html("")
         $("#btncenquiry").addClass("ClosePopup");
@@ -167,7 +167,7 @@ function ContactUsForm() {
             Message: txtMessage2,
             form: 'contact',
             domain: 'Hero Homes',
-            sendToEmail: 'navneet@growingbricksrealty.com'
+            sendToEmail: 'sales@growingbricksrealty.com'
         }
         $.ajax({
             type: "POST",
